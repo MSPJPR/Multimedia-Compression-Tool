@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Compression Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multimedia Compression Tool</h1>
+        <form id="upload-form">
+            <label for="file-input">Upload a File:</label>
+            <input type="file" id="file-input" accept="image/*,audio/*,video/*">
+            <button type="button" id="compress-btn">Compress</button>
+        </form>
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+        <div id="output"></div>
+        <div id="log"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
